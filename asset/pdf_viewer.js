@@ -19,7 +19,7 @@ function renderPdfViewerInDiv(options) {
   const config = Object.assign(
     {
       target: '#pdf-viewer-container',
-      pdfUrl: './pdf/PosMAC 리플렛 0909.pdf',
+      pdfUrl: './pdf/posmac-leaflet-0909.pdf',
       title: 'PosMAC 리플렛 0909',
       page: 1,
       zoom: 'FitH',
