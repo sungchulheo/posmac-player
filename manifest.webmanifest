@@ -1,0 +1,11 @@
+{
+  "name": "PosMAC 전시 콘텐츠",
+  "short_name": "PosMAC",
+  "start_url": "/posmac-player/",
+  "scope": "/posmac-player/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#12335b",
+  "orientation": "landscape",
+  "icons": []
+}
