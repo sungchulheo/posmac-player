@@ -33,13 +33,7 @@
     close.style.cssText = 'font:700 16px Arial,sans-serif;background:#fff;color:#12335b;border:0;border-radius:6px;padding:10px 16px;cursor:pointer;touch-action:manipulation;';
     close.addEventListener('click', function (e) {
       e.stopPropagation();
-      closePosmacCatalogue();
-      try {
-        if (typeof window.$W === 'function') {
-          var main = window.$W('mlc$main');
-          if (main && typeof main.changeState === 'function') main.changeState('Layer1');
-        }
-      } catch (err) { console.warn('[PosMAC] Home state change:', err); }
+   window.location.reload();
     });
     header.appendChild(title); header.appendChild(close);
     var scroller = document.createElement('div');
